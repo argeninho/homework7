@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.todo-app {
+  text-align: center;
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #bebebe;
+}
+
+.task-input button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  color: #8b8b86;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f5f5f7;
+}
+
+.task {
+  background-color: #bebebe;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  width: 380px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task input[type="checkbox"] {
+  padding: 10px;
+}
+
+.task input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: 0;
+  background-color: #bebebe;
+}
+
+.task button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #fff;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.filter-buttons {
+  margin-top: 20px;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #8b8b86;
+  width: 126px;
+}
+
+.filter-buttons button:last-child {
+  margin-right: 0;
+}
